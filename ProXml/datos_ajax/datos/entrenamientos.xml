@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<entrenamientos>
+    <entrenamiento id="1">
+        <nombre>Padel</nombre>
+        <duracion>90</duracion>
+        <nivel>Duro</nivel>
+    </entrenamiento>
+    <entrenamiento id="2">
+        <nombre>HIIT</nombre>
+        <duracion>40</duracion>
+        <nivel>Avanzado</nivel>
+    </entrenamiento>
+    <entrenamiento id="3">
+        <nombre>HIIT</nombre>
+        <duracion>40</duracion>
+        <nivel>Avanzado</nivel>
+    </entrenamiento>
+    <entrenamiento id="4">
+        <nombre>HIIT</nombre>
+        <duracion>40</duracion>
+        <nivel>Avanzado</nivel>
+    </entrenamiento>
+    <entrenamiento id="9">
+        <nombre>Raul</nombre>
+        <duracion>400</duracion>
+        <nivel>Durisimo</nivel>
+    </entrenamiento>
+    <entrenamiento id="10">
+        <nombre>Diego</nombre>
+        <duracion>15</duracion>
+        <nivel>duro</nivel>
+    </entrenamiento>
+    <entrenamiento id="11">
+        <nombre>Hola</nombre>
+        <duracion>70</duracion>
+        <nivel>suro</nivel>
+    </entrenamiento>
+</entrenamientos>

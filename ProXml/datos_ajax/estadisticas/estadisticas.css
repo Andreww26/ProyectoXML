@@ -1,0 +1,66 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centra todo horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centra el contenido de texto */
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.table-styled {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-styled th,
+.table-styled td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center; /* Centra el texto en las celdas */
+}
+
+.table-styled th {
+    background-color: #00695c; /* Verde oscuro */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table-styled tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table-styled tr:hover {
+    background-color: #e0f2f1; /* Verde claro */
+    transition: background-color 0.3s ease;
+}
